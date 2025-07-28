@@ -6,9 +6,14 @@ dvc pipeline for ml
 
 # How to run?
 
-conda create -n test python=3.11 -y
+python -m venv myenv
 
-conda activate test
+.\myenv\Scripts\activate
+
+# for git bash 
+
+source venv/Scripts/activate
+
 
 pip install -r requirements.txt
 
